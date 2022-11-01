@@ -1,0 +1,67 @@
+body {
+    background-image: url("train-snow.jpg");
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 5px solid whitesmoke;
+    box-shadow: 1px 1px 10px whitesmoke;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    margin: auto;
+    max-width: 500px;
+    height: 500px;
+    padding: 50px 0 50px 0;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    text-shadow: 1px 1px 10px whitesmoke;
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 10px whitesmoke;
+}
+button {
+    border: none;
+    padding: 20px;
+    color: black;
+    text-shadow: 0 0 1px black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px auto 20px;
+    border-radius: 5px;
+    transition: .3s linear;
+    background: rgba(66,76,86, 0.6);
+}
+button:hover {
+        transform: rotateX(20deg);
+        box-shadow: 0 15px 15px whitesmoke;
+}
+
+
+
+
